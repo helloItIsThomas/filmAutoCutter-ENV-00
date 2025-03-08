@@ -1,0 +1,13 @@
+name: video-beat-sync
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.24
+  - opencv=4.9
+  - pip
+  - pip3:
+    - aubio==0.4.9
+    - pyaudio==0.2.14
+    - python-dotenv==1.0.0=

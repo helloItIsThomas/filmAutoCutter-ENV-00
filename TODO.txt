@@ -1,0 +1,11 @@
+the only dependency we need still is aubio==0.4.9
+
+deepseek says we should be installing it with pip.
+
+
+Then we do the following:
+    Setup Guide (run these commands in order):
+	conda activate video-beat-sync
+
+	# Create environment file
+	echo "VIDEO_PATH=assets/input.mp4" > video-beat-sync/src/.env
